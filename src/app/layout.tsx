@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Roboto_Mono } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
- 
-export const inter = Inter({
+// Initialize the Inter font
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
-})
+});
 
 export const metadata: Metadata = {
   title: "Pragyan KC",
-  description: "Protfolio Website created by Pragyan KC",
+  description: "Portfolio Website created by Pragyan KC",
 };
 
 export default function RootLayout({
