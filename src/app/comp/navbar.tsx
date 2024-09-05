@@ -20,7 +20,7 @@ export default function Navbar() {
                 </div>
                 {/* <div className="resume text-x px-8 py-3 rounded-lg border-custom-bit-green border-2 text-custom-bit-green shadow-3xl hover:shadow-custom-bit-green hover:cursor-pointer transition-all duration-150 ease-linear">Resume</div> */}
                 <a 
-            href="/assets/cv.pdf" 
+            href="/assets/resume.pdf" 
             className="resume text-x px-8 py-3 rounded-lg border-custom-bit-green border-2 text-custom-bit-green shadow-3xl hover:shadow-custom-bit-green cursor-pointer transition-all duration-150 ease-linear"
             aria-label="Resume"
             target="_blank"
