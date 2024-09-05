@@ -18,7 +18,16 @@ export default function Navbar() {
                     <a href="#Projects" className="link3 hover:text-custom-bit-green active:text-custom-bit-green transition-all duration-200 ease-linear">Projects</a>
                     <a href="#Contact" className="link4 hover:text-custom-bit-green active:text-custom-bit-green transition-all duration-200 ease-linear">Contact</a>
                 </div>
-                <div className="resume text-x px-8 py-3 rounded-lg border-custom-bit-green border-2 text-custom-bit-green shadow-3xl hover:shadow-custom-bit-green hover:cursor-pointer transition-all duration-150 ease-linear">Resume</div>
+                {/* <div className="resume text-x px-8 py-3 rounded-lg border-custom-bit-green border-2 text-custom-bit-green shadow-3xl hover:shadow-custom-bit-green hover:cursor-pointer transition-all duration-150 ease-linear">Resume</div> */}
+                <a 
+            href="/assets/cv.pdf" 
+            className="resume text-x px-8 py-3 rounded-lg border-custom-bit-green border-2 text-custom-bit-green shadow-3xl hover:shadow-custom-bit-green cursor-pointer transition-all duration-150 ease-linear"
+            aria-label="Resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
             </div>
         </div>
       </div>

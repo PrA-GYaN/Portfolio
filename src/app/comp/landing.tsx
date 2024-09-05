@@ -11,7 +11,7 @@ export default function Landing() {
                 As an aspiring software developer, I am passionate about creating high-quality, user-centric digital experiences by building reliable applications and honing my skills in coding, debugging, and modern frameworks.
               </p>
             </div>
-            <div className="contact-btn flex items-center justify-center text-lg px-8 py-3 rounded-lg border-custom-bit-green border-2 text-custom-bit-green shadow-3xl hover:shadow-custom-bit-green hover:cursor-pointer transition-all duration-150 ease-linear">Contact Me</div>
+            <a href="#Contact" className="contact-btn w-1/5 flex items-center justify-center text-lg px-8 py-3 rounded-lg border-custom-bit-green border-2 text-custom-bit-green shadow-3xl hover:shadow-custom-bit-green hover:cursor-pointer transition-all duration-150 ease-linear">Contact Me</a>
         </div>
     </div>
   )

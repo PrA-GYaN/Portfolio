@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import portfioliomg from '../../../public/assets/portfolio.png'
+// import portfioliomg from '../../../public/assets/portfolio.png'
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group'
 import './main.css'
 export default function Project() {
@@ -12,17 +12,17 @@ export default function Project() {
       type:''
     },
     {
-      image:'/assets/portfolio.png',
-      name: 'Personal Portfolio',
+      image:'/assets/intern.png',
+      name: 'Intership Website',
       description:'',
       tags: ['Next.js', 'Tailwind CSS', 'JavaScript'],
       type:''
     },
     {
-      image:'',
-      name: 'Employee Management App',
+      image:'/assets/bricks.png',
+      name: 'Bricks',
       description:'',
-      tags: ['Next.js', 'Tailwind CSS', 'JavaScript'],
+      tags: ['React', 'CSS', 'JavaScript'],
       type:''
     }
   ]
