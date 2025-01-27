@@ -14,7 +14,7 @@ export default function About() {
               </div>
               <div className="about-desc-box2">As a fresher, I am continuously learning and adapting to new technologies. My primary focus is on front-end and full-stack development, where I enjoy transforming ideas into functional and efficient solutions. I have experience working with a variety of programming languages, including Python, Java, JavaScript, TypeScript, PHP, C, C++, and Go.</div>
               <div className="about-desc-box3">I am actively seeking internship opportunities to apply my skills, expand my knowledge, and collaborate with experienced professionals. If you're looking for a dedicated and quick-learning intern, I would love to connect and explore how I can contribute to your team.</div>
-              <div className="about-desc-box4">Here are a few technologies I’ve been working with recently:</div>
+              <div className="about-desc-box4">Here are a few technologies I&apos;ve been working with recently:</div>
               <ul className="skill-list grid grid-cols-2 gap-3 list-disc list-inside marker:text-custom-bit-green">
                 <li>React</li>
                 <li>Python</li>
