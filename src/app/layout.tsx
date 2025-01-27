@@ -1,30 +1,40 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google";
+import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
-// Initialize the Inter font
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-});
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Pragyan KC",
-  description: "Portfolio Website created by Pragyan KC",
+  title: "Pragyan KC | Full-Stack Developer Portfolio",
+  description: "Portfolio website showcasing projects built with React, Next.js, Django, and more.",
+  keywords: "Pragyan KC, portfolio, full-stack developer, React, Next.js, Django, web development",
+  openGraph: {
+    title: "Pragyan KC | Full-Stack Developer Portfolio",
+    description: "Explore Pragyan KC's web development projects and expertise in full-stack development.",
+    // images: ["/path-to-thumbnail.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <Analytics/>
-      <SpeedInsights/>
-      <body className={inter.className}>{children}</body>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className={`${inter.className} theme-light`}>
+        {children}
+        <Analytics />
+        {process.env.NODE_ENV === "production" && <SpeedInsights />}
+      </body>
     </html>
   );
 }
