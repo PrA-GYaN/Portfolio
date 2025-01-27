@@ -27,7 +27,7 @@ export default function About() {
             <div className="about-right-content flex flex-col flex-grow items-center pl-8 pt-8 text-custom-offwhite">
               <div className="sdev flex flex-col border gap-6 border-custom-bit-green p-8">
                 <div className="sdev-title flex flex-row gap-10 text-custom-offwhite">
-                  <FontAwesomeIcon icon={faWatchmanMonitoring} className='w-10' size='1x'/>
+                  <FontAwesomeIcon icon={faWatchmanMonitoring} className='w-10' size='4x'/>
                   <div className="dev-title text-2xl font-bold tracking-wide relative"><span className="after:content-[''] after:bg-custom-bit-green after:w-28 after:h-2 after:absolute after:left-0 after:bottom-9 after:-z-50 after:opacity-70">Software</span><br />
                     Developer
                   </div>
@@ -36,7 +36,7 @@ export default function About() {
               </div>
               <div className="fdev flex flex-col border gap-6 border-custom-bit-green p-8">
                 <div className="fdev-title flex flex-row gap-10 text-custom-offwhite">
-                  <FontAwesomeIcon icon={faReact} className='w-10' size='1x'/>
+                  <FontAwesomeIcon icon={faReact} className='w-10' size='4x'/>
                   <div className="dev-title text-2xl font-bold tracking-wide relative"><span className="after:content-[''] after:bg-custom-bit-green after:w-28 after:h-2 after:absolute after:left-0 after:bottom-9 after:-z-50 after:opacity-70">Full Stack</span><br />
                     Developer
                   </div>

@@ -50,7 +50,6 @@ export default function Project() {
                     <Image
                       src={project.image}
                       alt={project.name}
-                      layout="fixed"
                       width={420}
                       height={210}
                       className="rounded-t-lg"

@@ -5,7 +5,7 @@ export default function Navbar() {
     <div className="header-warp bg-custom-dark-blue px-16 py-10 text-white ml-16 med:px-12 med:ml-20">
         <div className="header-warp-inner flex flex-row justify-between">
             <div className="left-part">
-              <div className='octagonwrap shadow-3xl hover:shadow-custom-bit-green hover:cursor-pointer transition-all duration-150 ease-linear'>
+              <div className='octagonwrap shadow-3xl hover:cursor-pointer transition-all duration-150 ease-linear'>
                 <div className='octagon'>
                   <div className='inner'>P</div>
                 </div>
